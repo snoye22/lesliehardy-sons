@@ -1,0 +1,228 @@
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  margin: 0;
+}
+
+body {
+  background-color: #e8eff2;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+}
+
+.hero {
+  background-image: url('../images/water2.1.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+}
+
+nav a {
+  display: inline-block;
+  padding: 40px;
+  float: right;
+}
+
+nav {
+  background: #303c4f;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  /*height: 120px;*/
+}
+
+.open-nav {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  background: #303c4f;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 0px;
+  /*text-align: center;*/
+  margin-left: 100px;
+  color: white;
+  font-size: 3 rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-top: 30px;
+  margin-left: 100px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h5 {
+  font-size: 35px;
+  margin-left: 850px;
+  margin-top: 400px;
+  text-shadow: 2px 2px 1px white;
+}
+
+section {
+  margin: 35px 150px;
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+footer {
+  display: inline-block;
+  margin: 35px 150px;
+  padding: 50px;
+  border: #303c4f solid 10px;
+  justify-content: space-between;
+}
+
+.Hours, .location, .contactus {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.video {
+  text-align: center;
+}
+
+/*light blue color code: #46b6ea*/
+
+.link {
+  color: black;
+  font-size: 19px
+}
+
+#hamburger, #close {
+  font-size: 80px;
+  display: inline-block;
+}
+
+#close {
+  display: none;
+}
+
+/*extra-large*/
+
+@media (min-width: 1200px) {
+  #hamburger {
+    display: none;
+  }
+}
+
+/*large*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background: red;
+    width: auto;
+  }
+  #hamburger {
+    display: none;
+  }
+  footer {
+    margin: 15px 80px;
+    padding: 50px;
+  }
+}
+
+/*medium*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    max-width: 100%;
+    /*padding-top: 10px;*/
+    background: yellow;
+  }
+  #hamburger {
+    display: none;
+  }
+  footer {
+    margin: 5px 15px;
+    padding: 10px;
+  }
+  section {
+    margin: 25px 75px;
+  }
+}
+
+/*small*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #about, #home, #product {
+    /*display: none;*/
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    margin: 10px 30px;
+  }
+  footer {
+    margin: 5px 80px;
+    padding: 50px;
+  }
+}
+
+/*extra-small*/
+
+@media (min-width: 300px) and (max-width: 575px) {
+  body {
+    background: purple;
+    max-width: 100%;
+  }
+  #about, #home, #product {
+    display: none;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section {
+    margin: 5px 15px;
+  }
+  footer {
+    margin: 5px 15px;
+    padding: 10px;
+  }
+  /*img {
+    height: 200px;
+    width: 30%;
+  }*/

@@ -1,0 +1,70 @@
+/*body {
+  background: silver;
+}
+
+
+header {
+  height: 100vh;
+  background:
+    image: url(http://f.cl.ly/items/1P1n1Z2Z153f3F070G2k/polar-bears.jpg);
+    size: cover;
+    position: center;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+color: white
+}
+
+  .image-example,
+  .background-example {
+    width: 500px;
+    height: 450px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 20px;
+  }
+
+p {
+  color: yellow
+}
+
+h2 {
+  text-align: center
+}
+p.brown {
+  color: brown;
+}*/
+
+/*.hero {
+  background-image: url('../images/water2.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+}*/
+
+form {
+  font-size: 20px;
+  display: flex;
+}
+
+input[type="text"] {
+  width: 150px;
+   display: block;
+   margin-bottom: 10px;
+   background-color: yellow;
+
+}
+
+hover:input [type="text"] {
+  color: red;
+}
